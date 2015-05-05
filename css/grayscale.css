@@ -29,6 +29,7 @@ h1 {
 .intro-text{
     font-family: 'Carrington', Fallback, sans-serif;
     font-weight: 100;
+    
 }
 /*
   End edited settings
@@ -209,7 +210,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 46px;
     }
 }
 
