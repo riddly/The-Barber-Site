@@ -9,19 +9,23 @@
 */
 
 
-h1{
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: 'MyGirlIsRetroDEMO';
-    src: url('/fonts/retro_font.ttf');
-    src: local('/fonts/retro_font.ttf'), 
-         local('retro_font'), 
-         url('retro_font.ttf') format('truetype'),
-         url('retro_font.svg#font') format('svg');
-    font-weight: 700;
-    letter-spacing: 1px;
+@font-face{
+    font-family: 'Carrington';
+    src: url('../fonts/Carrington.ttf');
+}
+@font-face{
+    font-family: 'Carrington';
+    src: url('../fonts/Carrington.eot');
 }
 
+h1 {
+    margin: 0 0 35px;
+    /*text-transform: uppercase;*/
+    font-family: 'Carrington', Fallback, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
 /*
   End edited settings
 */
