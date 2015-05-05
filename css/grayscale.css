@@ -86,7 +86,7 @@
 #test {
     display: none;
 }
-h1  {
+h1, .intro-text  {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
     font-family: 'Gist', Fallback, sans-serif;
@@ -101,19 +101,7 @@ h1  {
             animation: fadein 3s;
     -webkit-font-smoothing: antialiased;
 }
-.intro-text{
-    margin: 0 0 35px;
-    /*text-transform: uppercase;*/
-    font-family: 'Gist', Fallback, sans-serif;
-    font-weight: normal;
-    letter-spacing: 1px;
-    color: #ffffff;
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
-}
+
 h2{
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
@@ -316,6 +304,11 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
