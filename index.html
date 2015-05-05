@@ -29,6 +29,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="js/jquery-1.11.2.min.js"></script>
+    <script>
+        $("#test h1").delay(1000).animate({ opacity: 1 }, 700);​
+    </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -70,7 +73,7 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div id="test" class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">The Barber</h1>
                         <p class="intro-text">Ashe Street & Manor West Retail Park</p>
                         <a href="#about" class="btn btn-circle page-scroll">
