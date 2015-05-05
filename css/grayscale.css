@@ -8,7 +8,6 @@
   Edited settings
 */
 
-
 @font-face{
     font-family: 'Carrington';
     src: url('../fonts/Carrington.ttf');
@@ -25,6 +24,11 @@ h1 {
     font-weight: 100;
     letter-spacing: 1px;
     color: #ffffff;
+}
+
+.intro-text{
+    font-family: 'Carrington', Fallback, sans-serif;
+    font-weight: 100;
 }
 /*
   End edited settings
