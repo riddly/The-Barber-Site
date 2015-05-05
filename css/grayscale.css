@@ -9,6 +9,14 @@
 */
 
 @font-face{
+    font-family: 'Tattoo';
+    src: url('../fonts/tattoo.ttf')
+}
+@font-face{
+    font-family: 'Tattoo';
+    src: url('../fonts/tattoo.eot')
+}
+@font-face{
     font-family: 'Carrington';
     src: url('../fonts/Carrington.ttf');
 }
@@ -16,18 +24,22 @@
     font-family: 'Carrington';
     src: url('../fonts/Carrington.eot');
 }
+@font-face{
+    font-family: 'Gist';
+    src: url('../fonts/Gist.otf');
+}
 
 h1 {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    font-family: 'Carrington', Fallback, sans-serif;
+    font-family: 'Gist', Fallback, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     color: #ffffff;
 }
 
 .intro-text{
-    font-family: 'Carrington', Fallback, sans-serif;
+    font-family: 'Gist', Fallback, sans-serif;
     font-weight: 100;
     
 }
