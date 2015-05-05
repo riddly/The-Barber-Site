@@ -9,6 +9,7 @@
 */
 
 @import url(http://fonts.googleapis.com/css?family=Enriqueta:400,700);
+@import url(http://fonts.googleapis.com/css?family=Play);
 @font-face{
     font-family: 'retro_font';
     src: url('../fonts/retro_font.ttf')
@@ -67,7 +68,7 @@
 h1, .intro-text  {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    font-family: 'retro_font', Fallback, sans-serif;
+    font-family: 'Play', Fallback, sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
     color: #ffffff;
@@ -79,7 +80,7 @@ h1, .intro-text  {
 h2{
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    font-family: 'retro_font', Fallback, sans-serif;
+    font-family: 'Play', Fallback, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     color: #ffffff;
@@ -94,7 +95,7 @@ h2{
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Play;
     color: #fff;
     background-color: #2b313d;
 }
@@ -143,14 +144,14 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     /*text-transform: uppercase;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Play;
     background-color: #2b313d;
 }
 
@@ -233,7 +234,7 @@ a:focus {
     text-align: center;
     color: #fff;
     background: url(../img/ashe_st_color_blur.jpg) no-repeat bottom center scroll;
-    
+    border-bottom: 1px solid rgba(255,255,255,.3);
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
