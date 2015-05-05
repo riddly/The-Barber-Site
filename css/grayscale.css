@@ -7,7 +7,11 @@
 /*
   Edited settings
 */
-
+@font-face{
+    font-family: 'Gist';
+    src: url('../fonts/Gist.otf');
+}
+/*
 @font-face{
     font-family: 'Tattoo';
     src: url('../fonts/tattoo.ttf')
@@ -28,7 +32,7 @@
     font-family: 'Gist';
     src: url('../fonts/Gist.otf');
 }
-
+*/
 h1 {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
@@ -43,6 +47,7 @@ h1 {
     font-weight: 100;
     
 }
+
 /*
   End edited settings
 */
