@@ -34,6 +34,19 @@
             $('#test').delay(2500).fadeIn(2000);
         });
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script>
+            var map;
+            function initialize() {
+                var mapOptions = {
+                zoom: 8,
+                center: new google.maps.LatLng(52.269761, -9.704067)
+                };
+              map = new google.maps.Map(document.getElementById('map'),
+                  mapOptions);
+            } 
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -120,8 +133,8 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjEPU5IcqUEyGPXpbuwoMiyK2DQlOPLIA&sensor=false"></script>-->
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqDB-zAKsBgmk9P0eeo2R5h_PqfV_bHys&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
