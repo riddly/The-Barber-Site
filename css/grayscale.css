@@ -8,7 +8,7 @@
   Edited settings
 */
 
-
+@import url(http://fonts.googleapis.com/css?family=Enriqueta:400,700);
 @font-face{
     font-family: 'retro_font';
     src: url('../fonts/retro_font.ttf')
@@ -149,7 +149,7 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #2b313d;
 }
