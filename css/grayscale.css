@@ -55,20 +55,7 @@
 */
 
 
-h1, .intro-text {
-    margin: 0 0 35px;
-    /*text-transform: uppercase;*/
-    font-family: 'Gist', Fallback, sans-serif;
-    font-weight: normal;
-    letter-spacing: 1px;
-    color: #ffffff;
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
-    -webkit-font-smoothing: antialiased;
-}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -96,6 +83,33 @@ h1, .intro-text {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+h1  {
+    margin: 0 0 35px;
+    /*text-transform: uppercase;*/
+    font-family: 'Gist', Fallback, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+    
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+    -webkit-font-smoothing: antialiased;
+}
+.intro-text{
+    margin: 0 0 35px;
+    /*text-transform: uppercase;*/
+    font-family: 'Gist', Fallback, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+    -webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+    -webkit-font-smoothing: antialiased;
 }
 h2{
     margin: 0 0 35px;
