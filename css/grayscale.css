@@ -7,39 +7,17 @@
 /*
   Edited settings
 */
+
+
 @font-face{
-    font-family: 'Gist';
-    src: url('../fonts/gist2font/Gist2.otf');
+    font-family: 'retro_font';
+    src: url('../fonts/retro_font.ttf')
 }
 @font-face{
-    font-family: 'Gist';
-    src: url('../fonts/gist2font/Gist2.ttf');
-}
-@font-face{
-    font-family: 'Gist';
-    src: url('../fonts/gist2font/Gist2.eot');
-}
-@font-face{
-    font-family: 'Gist';
-    src: url('../fonts/gist2font/Gist2.woff2');
-}
-@font-face{
-    font-family: 'Gist';
-    src: url('../fonts/gist2font/Gist2.woff');
-}
-@font-face{
-    font-family: 'Gist';
-    src: url('../fonts/gist2font/Gist2.svg');
+    font-family: 'retro_font';
+    src: url('../fonts/retro_font.eot')
 }
 /*
-@font-face{
-    font-family: 'Tattoo';
-    src: url('../fonts/tattoo.ttf')
-}
-@font-face{
-    font-family: 'Tattoo';
-    src: url('../fonts/tattoo.eot')
-}
 @font-face{
     font-family: 'Carrington';
     src: url('../fonts/Carrington.ttf');
@@ -89,7 +67,7 @@
 h1, .intro-text  {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    font-family: 'Gist', Fallback, sans-serif;
+    font-family: 'retro_font', Fallback, sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
     color: #ffffff;
@@ -101,7 +79,7 @@ h1, .intro-text  {
 h2{
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    font-family: 'Gist', Fallback, sans-serif;
+    font-family: 'retro_font', Fallback, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     color: #ffffff;
