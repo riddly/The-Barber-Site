@@ -29,20 +29,43 @@
 }
 h1, .intro-text  {
     margin: 0 0 35px;
+<<<<<<< HEAD
     font-family: 'Gruppo', Fallback, sans-serif;
+=======
+    /*text-transform: uppercase;*/
+    font-family: 'Play', Fallback, sans-serif;
+>>>>>>> parent of 4e7b04b... changes to fade in
     font-weight: normal;
     letter-spacing: 1px;
-    color: #ffffff;    
+    color: #ffffff;
+    
+    
     -webkit-font-smoothing: antialiased;
 }
 
 h2{
     margin: 0 0 35px;
+<<<<<<< HEAD
     font-family: 'Gruppo', Fallback, sans-serif;
+=======
+    /*text-transform: uppercase;*/
+    font-family: 'Play', Fallback, sans-serif;
+>>>>>>> parent of 4e7b04b... changes to fade in
     font-weight: 100;
     letter-spacing: 1px;
     color: #ffffff;
 }
+
+
+.circle { 
+   width: 140px;
+   height: 140px;
+   background: red; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
 
 /*
   End edited settings
