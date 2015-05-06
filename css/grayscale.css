@@ -50,6 +50,10 @@ h2{
     letter-spacing: 1px;
     color: #ffffff;
 }
+h2 #the_h2{
+    font-size: 25px;
+    font-weight: 200;
+}
 /*
   End edited settings
 */
