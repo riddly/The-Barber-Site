@@ -18,7 +18,7 @@
 }
 h1{
     margin: 0 0 35px;
-    font-size: 140px;
+    font-size: 100px;
     font-weight: 500;
     font-family: 'Gruppo', Fallback, sans-serif;
     letter-spacing: 1px;
@@ -27,7 +27,7 @@ h1{
 }
 h1 #the{
     font-size: 50px;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 .intro-text  {
@@ -211,10 +211,10 @@ a:focus {
     display: table-cell;
     vertical-align: middle;
 }
-
+/*
 .intro .intro-body .brand-heading {
     font-size: 40px;
-}
+}*/
 
 .intro .intro-body .intro-text {
     font-size: 18px;
