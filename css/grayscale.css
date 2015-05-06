@@ -382,6 +382,43 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
+    h1{
+        margin: 0 0 35px;
+        font-size: 50px;
+        font-weight: 500;
+        font-family: 'Gruppo', Fallback, sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;    
+        -webkit-font-smoothing: antialiased;
+    }
+    h1 #the{
+        font-size: 25px;
+        /*font-weight: 400;*/
+    }
+    .intro-text  {
+        margin: 0 0 35px;
+        font-family: 'Gruppo', Fallback, sans-serif;
+        font-size: 45px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #ffffff;
+        -webkit-font-smoothing: antialiased;
+    }
+    h2{
+        margin: 0 0 35px;
+        font-family: 'Gruppo', Fallback, sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+    h2 #the_h2{
+        font-size: 25px;
+        font-weight: 200;
+    }
+    p{
+        font-size: 17.5px;
+    }
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
