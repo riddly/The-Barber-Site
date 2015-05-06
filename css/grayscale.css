@@ -45,7 +45,8 @@ h2{
     font-family: 'Gruppo', Fallback, sans-serif;
     /*text-transform: uppercase;*/
     font-family: 'Gruppo', Fallback, sans-serif;
-    font-weight: 100;
+    font-weight: 500;
+    font-size: 50px;
     letter-spacing: 1px;
     color: #ffffff;
 }
@@ -105,7 +106,7 @@ a:focus {
 }
 
 .light {
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .navbar-custom {
