@@ -31,7 +31,6 @@ h1, .intro-text  {
     margin: 0 0 35px;
     font-family: 'Gruppo', Fallback, sans-serif;
     /*text-transform: uppercase;*/
-    font-family: 'Play', Fallback, sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
     color: #ffffff;
@@ -42,7 +41,7 @@ h2{
     margin: 0 0 35px;
     font-family: 'Gruppo', Fallback, sans-serif;
     /*text-transform: uppercase;*/
-    font-family: 'Play', Fallback, sans-serif;
+    font-family: 'Gruppo', Fallback, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     color: #ffffff;
