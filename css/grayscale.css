@@ -87,6 +87,15 @@ h2{
 }
 
 
+.circle { 
+   width: 140px;
+   height: 140px;
+   background: red; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
 
 /*
   End edited settings
@@ -167,6 +176,7 @@ a:focus {
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
+    
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -176,6 +186,7 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+    
 }
 
 .navbar-custom .nav li a {
@@ -235,6 +246,7 @@ a:focus {
     color: #fff;
     background: url(../img/ashe_st_color_blur.jpg) no-repeat bottom center scroll;
     border-bottom: 1px solid rgba(255,255,255,.3);
+    
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -400,10 +412,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #FF1919;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: rgba(255,255,255,.1);
 }
 
 ul.banner-social-buttons {
