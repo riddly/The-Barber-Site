@@ -24,7 +24,7 @@
     color: #ffffff;    
     -webkit-font-smoothing: antialiased;
 }
-.intro-title-text #the{
+h1 #the{
     font-size: 35px;
 }
 h1, .intro-text  {
