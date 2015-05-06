@@ -33,7 +33,6 @@ h1 #the{
 .intro-text  {
     margin: 0 0 35px;
     font-family: 'Gruppo', Fallback, sans-serif;
-    /*text-transform: uppercase;*/
     font-weight: normal;
     letter-spacing: 1px;
     color: #ffffff;
@@ -42,8 +41,6 @@ h1 #the{
 
 h2{
     margin: 0 0 35px;
-    font-family: 'Gruppo', Fallback, sans-serif;
-    /*text-transform: uppercase;*/
     font-family: 'Gruppo', Fallback, sans-serif;
     font-weight: 500;
     font-size: 50px;
