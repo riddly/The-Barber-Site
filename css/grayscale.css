@@ -43,7 +43,7 @@ h2{
     margin: 0 0 35px;
     font-family: 'Gruppo', Fallback, sans-serif;
     font-weight: 500;
-    font-size: 50px
+    font-size: 50px;
     letter-spacing: 1px;
     color: #ffffff;
 }
@@ -51,8 +51,6 @@ h2 #the_h2{
     font-size: 25px;
     font-weight: 200;
 }
-
-
 /*
   End edited settings
 */
@@ -118,7 +116,6 @@ a:focus {
     font-family: Gruppo;
     background-color: #2b313d;
 }
-
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
